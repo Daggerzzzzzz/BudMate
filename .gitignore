@@ -63,3 +63,8 @@ android/key.properties
 # iOS signing
 ios/*.mobileprovision
 ios/*.p12
+
+# Claude Code (local development)
+.claude/settings.local.json
+.claude/plan.md
+.claude/plans/
