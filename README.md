@@ -66,34 +66,6 @@ flutter pub get
 flutter run
 ```
 
-### Firestore Security Rules
-
-```javascript
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    function isAuthenticated() {
-      return request.auth != null;
-    }
-    function isOwner(userId) {
-      return request.auth.uid == userId;
-    }
-    match /budgets/{budgetId} {
-      allow read, write: if isAuthenticated() && isOwner(resource.data.userId);
-      allow create: if isAuthenticated() && isOwner(request.resource.data.userId);
-    }
-    match /categories/{categoryId} {
-      allow read, write: if isAuthenticated() && isOwner(resource.data.userId);
-      allow create: if isAuthenticated() && isOwner(request.resource.data.userId);
-    }
-    match /expenses/{expenseId} {
-      allow read, write: if isAuthenticated() && isOwner(resource.data.userId);
-      allow create: if isAuthenticated() && isOwner(request.resource.data.userId);
-    }
-  }
-}
-```
-
 ## Project Structure
 
 ```
