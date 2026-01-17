@@ -1,0 +1,138 @@
+{
+  "@@locale": "en",
+
+  "appName": "BudMate",
+  "@appName": {
+    "description": "The application name"
+  },
+
+  "currency": "Currency",
+  "@currency": {
+    "description": "Currency setting label"
+  },
+
+  "language": "Language",
+  "@language": {
+    "description": "Language setting label"
+  },
+
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode toggle label"
+  },
+
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+
+  "logOut": "Log Out",
+  "@logOut": {
+    "description": "Logout button text"
+  },
+
+  "aboutApp": "About BudMate",
+  "@aboutApp": {
+    "description": "About setting label"
+  },
+
+  "version": "Version {version}",
+  "@version": {
+    "description": "App version display",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "preferences": "Preferences",
+  "account": "Account",
+
+  "selectCurrency": "Select Currency",
+  "selectLanguage": "Select Language",
+  "cancel": "Cancel",
+
+  "home": "Home",
+  "dashboard": "Dashboard",
+  "history": "History",
+  "profile": "Profile",
+
+  "logOutConfirmTitle": "Log Out",
+  "logOutConfirmMessage": "Are you sure you want to log out?",
+
+  "aboutAppDescription": "BudMate helps you track your budgets and expenses with ease. Manage your finances, set spending limits, and stay on top of your goals.",
+  "appCopyright": "© 2025 BudMate. All rights reserved.",
+
+  "appTagline": "Your partner for your budgeting needs",
+  "@appTagline": {
+    "description": "App tagline displayed on login screen"
+  },
+
+  "expenseDashboard": "Expense Dashboard",
+  "budgetHealth": "Budget Health",
+  "spendingByCategory": "Spending by Category",
+  "available": "Available",
+  "spent": "Spent",
+  "budget": "Budget",
+  "thisMonth": "This Month",
+  "lastThreeMonths": "Last 3 Months",
+  "allTime": "All Time",
+  "noExpenseDataYet": "No expense data yet",
+  "addExpensesToSeeAnalytics": "Add expenses to see your spending analytics",
+
+  "expenseHistory": "Expense History",
+  "noExpensesYet": "No expenses yet",
+  "addFirstExpense": "Add your first expense to start tracking",
+  "searchExpenses": "Search expenses...",
+  "all": "All",
+  "paid": "Paid",
+  "pending": "Pending",
+
+  "myBudgets": "My Budgets",
+  "addBudget": "Add Budget",
+  "addExpense": "Add Expense",
+  "editBudget": "Edit Budget",
+  "deleteBudget": "Delete Budget",
+  "save": "Save",
+  "delete": "Delete",
+  "amount": "Amount",
+  "category": "Category",
+  "date": "Date",
+  "note": "Note",
+  "status": "Status",
+
+  "welcomeBack": "Welcome back",
+  "totalBalance": "Total Balance",
+  "recentExpenses": "Recent Expenses",
+  "viewAll": "View All",
+  "seeAll": "See All",
+  "noRecentExpenses": "No recent expenses",
+
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications setting label"
+  },
+  "notificationsEnabled": "Receive expense reminders",
+  "@notificationsEnabled": {
+    "description": "Subtitle when notifications are enabled"
+  },
+  "notificationsDisabled": "No reminders",
+  "@notificationsDisabled": {
+    "description": "Subtitle when notifications are disabled"
+  },
+  "upcomingExpenseTitle": "Upcoming Expenses Tomorrow",
+  "@upcomingExpenseTitle": {
+    "description": "Notification title for upcoming expenses"
+  },
+  "upcomingExpenseBody": "You have {count} expense(s) due tomorrow totaling {amount}",
+  "@upcomingExpenseBody": {
+    "description": "Notification body for upcoming expenses",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}
