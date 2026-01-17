@@ -55,7 +55,6 @@ flutter pub get
    - Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
    - Enable Email/Password and Google Sign-In authentication
    - Add `google-services.json` to `android/app/`
-   - Set up Firestore security rules (see below)
 
 4. Run the app
 ```bash
