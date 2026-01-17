@@ -20,10 +20,6 @@ A mobile-based personal finance application with smart budget tracking for real-
 - **Dark/Light Mode** - Theme switching based on preference
 - **Cloud Sync** - Firebase Firestore with offline persistence
 
-## Screenshots
-
-*Coming soon*
-
 ## Tech Stack
 
 | Category | Technology |
